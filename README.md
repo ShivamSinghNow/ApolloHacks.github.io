@@ -1,2 +1,2 @@
 # ApolloHacks.github.io
-apollo hacks practice website launch
+Official website for the Apollo Hackathon
