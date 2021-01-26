@@ -48,6 +48,11 @@ div {
 	padding-right:0px;
 	padding-left:0px;
 }
+@media screen and (min-width: 1000px) {
+	.nav-sections > a {
+		font-size: 30px;
+	}
+}
 
 .collapsible {
 	background-color: #cccccc;
