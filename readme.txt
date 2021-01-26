@@ -1,3 +1,6 @@
+NOTE: WEBSITE IS NOT COMPLETED
+
+
 This should be a new and improved website.
 
 Requirements:
