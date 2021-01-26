@@ -136,3 +136,25 @@ body > div {
 	background-size:cover;
 	min-height:750px;
 }
+
+#hour-pointer,
+#minute-pointer {
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	height:100%;
+	width: 100%;
+}
+
+#hour-pointer > span,
+#minute-pointer > span {
+	width: 5%;
+	padding-top: 11%;
+	height: 100%;
+	margin: 0 auto;
+	display: block;
+	transition: transform 0.5s;
+}
+#minute-pointer svg {
+	trasnform:scale(0.5);
+}
