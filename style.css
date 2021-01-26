@@ -66,6 +66,43 @@ body > div {
 	background-color:#bbbbbb;
 }
 
+.links {
+	width:60px;
+	height:60px;
+	display:flex;
+	justify-content:space-between;
+	width:70%;
+	margin:30% 10% 0% 20%;
+	overflow:hidden;
+	height:50px;
+}
+
+.links > div {
+	margin: 0px 50px;
+	opacity: 0.5;
+	background-color:#ccccdd;
+	transition: all .2s ease-in;
+}
+
+.links > div:hover {
+	opacity: 0.8;
+	background-color:#222222;
+	color:#eeeeee;
+}
+
+.links > div > a {
+	font-size:2vw;
+	text-align:center;
+	color:inherit;
+	text-decoration:none;
+	padding: 20px 10px 0px 0px;
+}
+@media screen and (min-width: 1000px) {
+	.links > div> a {
+		font-size:20px;
+	}
+}
+
 .collapsible {
 	background-color: #cccccc;
 	color:black;
@@ -93,4 +130,11 @@ body > div {
 
 .dropmenu {
 	padding:20px 10%;
+}
+
+.background {
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:750px;
 }
