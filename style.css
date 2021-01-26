@@ -1,3 +1,7 @@
+html {
+	scroll-behavior:smooth;
+}
+
 body {
 	background-color: #eeeeee;
 	margin-left:0px;
@@ -15,6 +19,8 @@ div {
 .title {
 	font-size:65px;
 	font-family:"Arial";
+	text-align:center;
+	padding:50px;
 }
 
 .nav-sections {
