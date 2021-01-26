@@ -1,0 +1,41 @@
+body {
+	background-color: #eeeeee;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:0px;
+}
+
+div {
+	display:inline-block;
+	width:100%;
+}
+
+.title {
+	font-size:65px;
+	font-family:"Arial";
+}
+
+.nav-sections {
+	font-family:"Arial";
+	width:100%;
+	top:0px;
+	position:fixed;
+	float:center;
+	display: flex;
+	justify-content: space-evenly;
+	overflow: hidden;
+	background-color:#cccccc;
+	padding: 0 2em;
+	height:75px;
+	margin-top:0px;
+	z-index:65535;
+}
+
+.nav-sections > a {
+	font-size:22px;
+	color:inherit;
+	text-decoration:none;
+	padding:20px;
+}

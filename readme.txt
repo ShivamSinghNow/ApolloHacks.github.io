@@ -10,7 +10,6 @@ Requirements:
 		How much does it cost?
 		Do I need to know how to code?
 		Will there be free merch?
-		What should I bring?
 		How many people can be on a team?
 		Who can attend?
 	- Schedule with some cool javascript or something
