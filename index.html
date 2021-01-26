@@ -7,6 +7,8 @@
 	<body>
 		<div class="nav-sections">
 			<a href="#Apollo Hacks"><b>Apollo Hacks</b></a>
+			<a></a>
+			<a></a>
 			<a href="#FAQ">FAQ</a>
 			<a href="#Sign Up">Sign Up</a>
 			<a href="#Schedule">Schedule</a>
@@ -23,16 +25,20 @@
 			<br>
 			<br></p>
 		</div>
-		<div id="FAQ", style="background-color:#eecccc">
+		<div id="FAQ", style="background-color:#eecccc; padding:5%">
 			<div class="title"><p>FAQ</p></div>
-			<p style="font-size: 30px">
-			What is a hackathon?<br>
-			How much does it cost?<br>
-			Do I need to know how to code?<br>
-			Will there be free merch?<br>
-			How many people can be on a team?<br>
-			Who can attend?<br>
-			</p>
+			<button type="button" class="collapsible">What is a hackathon?</button>
+			<div class="content"><p>Insert Response</p></div>
+			<button type="button" class="collapsible">How much does it cost?</button>
+			<div class="content"><p>Insert Response</p></div>
+			<button type="button" class="collapsible">Do I need to know how to code?</button>
+			<div class="content"><p>Insert Response</p></div>
+			<button type="button" class="collapsible">Will there be free merch?</button>
+			<div class="content"><p>Insert Response</p></div>
+			<button type="button" class="collapsible">How many people can be on a team?</button>
+			<div class="content"><p>Insert Response</p></div>
+			<button type="button" class="collapsible">Who can attend?</button>
+			<div class="content"><p>Insert Response</p></div>
 		</div>
 		<div id="Sign Up", style="background-color:#eedddd">
 			<div class="title"><p>Sign Up</p></div>
@@ -74,5 +80,21 @@
 			<br>
 			<br></p>
 		</div>
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+			for (i = 0; i < coll.length; i++) {
+				coll[i].addEventListener("click", function() {
+					this.classList.toggle("active");
+					var content = this.nextElementSibling;
+					if (content.style.display === "block") {
+						content.style.display = "none";
+					}
+					else {
+						content.style.display = "block";
+					}
+				});
+			}
+		</script>
 	</body>
 </html>
