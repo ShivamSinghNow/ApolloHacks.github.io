@@ -62,6 +62,10 @@ body > div {
 	}
 }
 
+.nav-sections:hover {
+	background-color:#bbbbbb;
+}
+
 .collapsible {
 	background-color: #cccccc;
 	color:black;
