@@ -137,15 +137,6 @@ body > div {
 	min-height:750px;
 }
 
-/* Layout */
-.boxcontainer {
-    display: flex;
-    padding: 2em;
-    height: 90vh;
-    justify-content: center;
-    align-items: middle;
-}
-
 .clockbox,
 #clock {
     width: 100%;
